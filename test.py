@@ -1,6 +1,6 @@
 import requests
 
-url = "http://100.116.230.26:228/bossgame_backend/log_score.php"
+url = "http://127.0.0.1/bossgame_backend/log_score.php"
 
 try:
     response = requests.get(url, timeout=5)
