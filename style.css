@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.leaderboard {
+    list-style: decimal inside;
+    font-size: 24px;
+    padding: 0;
+}
+
+.player {
+    margin: 10px 0;
+}
+
+.player-1 { color: gold; }
+.player-2 { color: silver; }
+.player-3 { color: orange; }
